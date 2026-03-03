@@ -1,0 +1,27 @@
+# Tally Counter REST API
+
+## Overview
+
+Tally Counter build with Node.js, Express and Winston.
+Counter can be read, increased or reset.
+
+## Installation
+
+npm init -y
+npm install --save winston@3.11.0
+
+## Running the server
+
+node src/main.js
+
+Server runs on http://localhost:3000
+
+## Endpoints
+
+[ENDPOINT] GET '/counter-read' = Get the current counter value
+[ENDPOINT] GET '/counter-increase' = Increment counter by 1
+[ENDPOINT] GET '/counter-reset' = Reset counter to 0
+
+## Logging
+
+All events are logged to console and app.log.
